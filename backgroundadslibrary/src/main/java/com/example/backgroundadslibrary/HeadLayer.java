@@ -171,6 +171,7 @@ public class HeadLayer extends View {
                 mWindowManager.removeView(mFrameLayoutBottom);
                 mCountDownTimerBottom = new CountDownTimer(5000, 5000) {
                     public void onTick(long millisUntilFinished) {
+
                     }
 
                     public void onFinish() {
