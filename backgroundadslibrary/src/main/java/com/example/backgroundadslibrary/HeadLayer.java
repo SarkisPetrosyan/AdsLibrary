@@ -157,6 +157,7 @@ public class HeadLayer extends View {
         int width = displayMetrics.widthPixels;
         params.gravity = Gravity.CENTER;
         params.height = height;
+        params.width = width;
         mWindowManager.addView(mFrameLayoutBottom, params);
         LayoutInflater layoutInflater = (LayoutInflater) mApplication.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
